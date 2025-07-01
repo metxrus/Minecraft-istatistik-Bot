@@ -1,0 +1,50 @@
+{
+    "bot": {
+        "token": "token giriniz",
+        "presence": {
+            "status": "online",
+            "activities": [{
+                "name": "Oyun",
+                "type": "WATCHING"
+            }]
+        }
+    },
+    "minecraft": {
+        "servers": [{
+            "name": "Celestial Network",
+            "ip": "play.celestialnw.net",
+            "port": 25565,
+            "channelId": "1389560398294024192",
+            "updateInterval": 30000,
+            "display": {
+                "type": "chart",
+                "banner": {
+                    "url": "https://fontmeme.com/images/minecraft-logo-current.png",
+                    "enabled": false
+                },
+                "chart": {
+                    "enabled": true,
+                    "historyHours": 24,
+                    "color": "#3498db"
+                },
+                "showNextUpdate": true
+            }
+        }]
+    },
+    "embed": {
+        "colors": {
+            "online": "#00ff00",
+            "offline": "#ff0000"
+        },
+        "title": "🎮 Minecraft Server İstatistiği",
+        "footer": {
+            "text": "Rivoles Development",
+            "iconURL": "https://fontmeme.com/images/minecraft-logo-current.png"
+        }
+    },
+    "credits": {
+        "author": "Rivoles Development",
+        "youtube": "https://www.youtube.com/@rivolesdevelopment",
+        "discord": "wulnry"
+    }
+}
